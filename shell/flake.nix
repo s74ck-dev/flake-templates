@@ -23,7 +23,7 @@
       {
         default = pkgs.mkShellNoCC {
           packages = with pkgs; [
-            hello
+              tmux
           ];
         };
       }
